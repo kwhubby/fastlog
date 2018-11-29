@@ -1,3 +1,48 @@
+mylog.pl:
+
+modified to accept direct entry from hand written shorthand notes, taken from 12 hour pacific time. Old commands work, just no need to specify any commands, just write the QSO information and it auto parses.
+
+example entry:
+1/11/2017 12am 3799 ea1dlu 33 33
+qso: 2017-01-11T00:00:00 ea1dlu 80m SSB 33 33    
+g3amn 33 33
+qso: 2017-01-11T00:00:00 g3amn 80m SSB 33 33    
+g3uck 33 33
+qso: 2017-01-11T00:00:00 g3uck 80m SSB 33 33    
+7157 py5ww 12:53am "jim" 'curitiba Brazil' c"ic7600 1kw e3l" 59 59
+qso: 2017-01-11T00:53:00 py5ww 40m SSB 59 59  curitiba Brazil  jim
+3795 44 py5ww
+qso: 2017-01-11T00:53:00 py5ww 80m SSB 44     
+1/15/2017 12:52pm ad0gw c"" "jim" CO
+qso: 2017-01-15T12:52:00 ad0gw 80m SSB 59  CO   jim
+w8kra "steve" 'appalacians' WV
+qso: 2017-01-15T12:52:00 w8kra 80m SSB 59  WV appalacians  steve
+kc7zz "bill" 'tucson' AZ
+qso: 2017-01-15T12:52:00 kc7zz 80m SSB 59  AZ tucson  bill
+5:50pm 7185 ki6wox 56 59 c"omiss"            
+qso: 2017-01-15T17:50:00 ki6wox 40m SSB 56 59   omiss 
+w5mev 56 56 
+qso: 2017-01-15T17:50:00 w5mev 40m SSB 56 56   omiss 
+kf5gtx 59 59
+qso: 2017-01-15T17:50:00 kf5gtx 40m SSB 59 59   omiss 
+w5paa 58
+qso: 2017-01-15T17:50:00 w5paa 40m SSB 58    omiss 
+ka2ffp 44
+qso: 2017-01-15T17:50:00 ka2ffp 40m SSB 44    omiss 
+kd2dmr 55 55
+qso: 2017-01-15T17:50:00 kd2dmr 40m SSB 55 55   omiss 
+k3uhu 22
+qso: 2017-01-15T17:50:00 k3uhu 40m SSB 22    omiss 
+w5meu 58
+qso: 2017-01-15T17:50:00 w5meu 40m SSB 58    omiss 
+6:45pm n2lu 54 55
+qso: 2017-01-15T18:45:00 n2lu 40m SSB 54 55   omiss 
+n5bfi MI 33 33
+qso: 2017-01-15T18:45:00 n5bfi 40m SSB 33 33 MI  omiss 
+ac2mt 44 44
+qso: 2017-01-15T18:45:00 ac2mt 40m SSB 44 44   omiss 
+...
+
 fastlog
 =======
 
