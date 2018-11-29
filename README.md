@@ -1,7 +1,7 @@
 mylog.pl:
 
 modified to accept direct entry from hand written shorthand notes, taken from 12 hour pacific time. Old commands work, just no need to specify any commands, just write the QSO information and it auto parses.
-
+```
 example entry:
 1/11/2017 12am 3799 ea1dlu 33 33
 qso: 2017-01-11T00:00:00 ea1dlu 80m SSB 33 33    
@@ -42,6 +42,7 @@ qso: 2017-01-15T18:45:00 n5bfi 40m SSB 33 33 MI  omiss
 ac2mt 44 44
 qso: 2017-01-15T18:45:00 ac2mt 40m SSB 44 44   omiss 
 ...
+```
 
 fastlog
 =======
